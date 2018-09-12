@@ -1,0 +1,13 @@
+PRUEBAS AUTOMATIZADAS:
+
+-pruebas unitarias:
+tiene que estar dividida en tres partes(arrange, act, assert).
+1- crear prueba
+2- probar que falle
+3- implementar la solucion
+4- refactorizar
+5- escribir otra prueba.
+
+-pruebas de integracon 
+-pruebas de regresion
+-pruebas de aceptacion de usuario(uat).
