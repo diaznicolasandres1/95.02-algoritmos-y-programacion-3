@@ -1,2 +1,3 @@
-# AYP3-SmallTalk
-Algoritmos y programacion III FIUBA - Implementaciones en SmallTalk
+# AYP3
+Algoritmos y programacion III FIUBA 
+2do Cuatrimestre año 2018
