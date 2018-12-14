@@ -6,7 +6,6 @@
 ## Lecturas obligatorias
 ### Para el parcial:
 - "Design Principles Behind Smalltalk", Dan Ingalls
-- Traducción al español
 - "Unit Testing Guidelines", Petroware SA
 - "8 Principles of Better Unit Testing", Dror Helper
 - "The Art of Enbugging", Andy Hunt & Dave Thomas
