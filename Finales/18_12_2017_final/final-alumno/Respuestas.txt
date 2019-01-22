@@ -1,0 +1,26 @@
+/**
+ * PREGUNTAS
+ **/
+
+ ------------------------------------
+
+ 1)
+
+ i) Los problemas de diseño son:
+
+ a) No existen test unitarios, y el único test existente no tiene un nombre representativo de lo que se esta probando. No hay forma de saber de forma feaciente si los métodos de cada clase
+ funcionan de la manera correcta.
+ b) En las clases Charango, GuitarraCriolla y Piano, se viola el encapsulamiento haciendo los atributos públicos. Además, esas clases no tienen ninguna responsabilidad. Se debe depender de las abstracciones y no de las implementaciones.
+ c) En las clases FitoPaez, LucianoPereyra y RicardoMollo se realiza un bloque de try/catch con uso de ifs, casteos y un println innecesarios. Se puede usar polimorfismo y excepciones para
+ resolver esto.
+
+ ii) Los principios de diseño que se violan son:
+
+ a) El principio de Single-Responsability en las clases Charango, GuitarraCriolla y Piano. Dicho principio dicta que las clases deben tener una sola razón de cambio, es decir, solo deben tener
+ un trabajo. En este caso en particular, ninguna de esas clases tiene una responsabilidad clara; solo son contenedores de datos.
+
+ b) El principio de Open-closed en las clases FitoPaez, LucianoPereyra y RicardoMollo. Dicho principio dicta que las clases deben estar abiertas para extensión pero cerradas para modificación.
+ En este caso en particular, en el caso de que se agregara un nuevo tipo de material de un instrumento, se debería modificar el metodo tocar.
+
+ c) El principio de Inversión de dependencia en las clases FitoPaez, LucianoPereyra y RicardoMollo. Dicho principio dicta que se deben depender de abstracciones y no de implementaciones. Las
+ abstracciones no deben depender de los detalles, los detalles deben depender de las abstracciones. Esto se viola claramente cuando se accede a los atributos de las clases de los instrumentos.

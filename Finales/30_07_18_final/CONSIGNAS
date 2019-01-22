@@ -1,0 +1,33 @@
+
+/**
+ * ANTES DE EMPEZAR 
+ **/
+ 
+a.Crear un proyecto nuevo desde su IDE llamandolo final-nave-original. Una vez creado copiar todas las carpetas con clases de este zip.
+b.Crear un proyecto nuevo desde su IDE llamandolo final-nave-alumno. Una vez creado copiar todas las carpetas con clases de este zip.
+c.Trabajar SIEMPRE sobre el proyecto final-nave-alumno
+
+/**
+ * PREGUNTAS 
+ **/
+
+1) Lea y ejecute NaveEspacialTest. Luego analice el modelo otorgado y conteste:
+
+	a) ¿Qué potenciales problemas de diseño encuentra en el codigo? Enumérelos explicando PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
+	b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)? 
+
+2) 	En base a los items que ud. detalle en el punto (1) realice una mejora de disenio total del proyecto que ademas incluya:
+ 	
+ 		Un nuevo tipo de PROPULSOR INTELIGENTE, capaz de desplazarse 10 unidades normalmente, pero que entre en modo "ahorro de combustible"
+ 		cuando tiene 50 o menos de capacidad de combustile. Allí el desplazamiento baja a 5 unidades. 
+ 		ATENCION si estando en modo "ahorro" el propulsor recibe mas combustible y pasa los 50 => debe volver a desplazarse de a 10 unidades. 
+
+		a) Realice PRIMERO un diagrama de clases A MANO ALZADA de como sera su nuevo disenio.
+		c) Realice ahora en codigo dicha mejora de disenio incorporando al PROPULSOR INTELIGENTE.
+
+
+3) Explique :
+	b) El principio de segregacion de la interfaz.
+	c) Muestre un ejemplo donde se cumpla dicho principio.
+
+4) Lecturas obligatorias: A determinar por el examinador.

@@ -1,0 +1,24 @@
+/*
+* PREGUNTAS
+*/
+
+1)
+
+a) Los problemas de diseño son:
+
+- No hay pruebas unitarias. Esto lleva a que no se corrobore cuál es el correcto uso y funcionamiento de las clases y de sus metodos.
+- Las clases Auto y Moto carecen de comportamiento y responsabilidad. Ademas, se viola el encapsulamiento al tener publico un atributo en la clase Auto.
+- El método getVelocidadDeVehiculo(Superficie superficie) se podría hacer usando polimorfismo. Ademas, hace alusion a que obtiene un atributo de la clase Persona.
+- El enum Superficie debería ser una/s clase/s con alguna responsabilidad.
+
+b) Los principios de diseño que se violan son:
+
+- Single-Responsability en las clase Persona, Auto y Moto. Dicho principio dicta que las clases deben tener una sola razon para cambiar, es decir, una sola responsabilidad.
+La clase Persona deberia saber solo subirse a un auto, mientras que el calculo de la velocidad de los vehiculos en distintas superficies deberia estar delegado. Las otras dos clases no poseen
+responsabilidad alguna.
+
+- Open-closed en la clase Persona. Dicho principio dicta que las clases deben estar cerradas para modificacion y abiertas para extension. En particular, este principio se viola
+en el metodo getVelocidadDeVehiculo(Superficie superficie), ya que si se agregar un nuevo vehiculo o superficie, habria que modificar el codigo existente. Lo mismo para el metodo subirseA().
+
+-Dependecy inversion en la clase Persona. Dicho principio dicta que las clases deben depender de abstracciones y no implementaciones. Los detalles dependen de las abstracciones y no al reves.
+Esto se ve claramente en el metodo subirseA(), se debería tener un solo metodo, por ejemplo, subirseA(Vehiculo vehiculo).

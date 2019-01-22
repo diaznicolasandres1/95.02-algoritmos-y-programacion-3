@@ -1,0 +1,23 @@
+/**
+ * PREGUNTAS
+ **/
+-----------------------------
+2) Problemas de diseño:
+
+a) Uso de println en la clase TiendaOnline con la intención de usarlo como debugger. Seria mejor realizar las pruebas unitarias acordes a lo que se esta realizando.
+
+b) Uso erróneo de bloques de try/catch (sumado al casteo) en el método agregarEnvio() de la clase TiendaOnline ya que se podría haber usado polimorfismo/herencia por como están
+
+ estructuradas las clases envio.Envio/envio.EnvioLocal/envio.EnvioInternacional. Además, se produce un mal manejo de excepciones usando println.
+
+c) La clase TiendaOnline posee demasiadas responsabilidades, el manejo de pedidos podria estar en una clase aparte.
+
+d) Uso de ifs en el metodo agregarCuponDeDescuento() de la clase TiendaOnline cuando se podría usar polimorfismo.
+
+e) No existen pruebas unitarias exhaustivas, lo que podría llevar a errores difíciles de detectar debido a que no se prueban las clases y los métodos uno por uno
+asegurándose su correcto funcionamiento. Además, las pruebas existentes no poseen un nombre que manifiesten qué es lo que se está probando.
+
+---------------------------
+3) Se viola el principio de Single-Responsability en la clase TiendaOnline. Este principio establece que una clase debe tener solo una razón para cambiar, dando como resultado que
+una clase solo debe tener una razón de existir. En este caso en particular, la clase TiendaOnline crea y maneja los pedidos internamente cuando bien puede estar encapsulado todo ese manejo
+en otra clase.

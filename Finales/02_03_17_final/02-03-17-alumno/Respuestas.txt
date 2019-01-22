@@ -1,0 +1,28 @@
+/**
+ * PREGUNTAS
+ **/
+
+
+ 1)
+
+ a) Los problemas de diseño son:
+
+ - No existen pruebas unitarias. La unica clase de test que hay posee solo un metodo donde se prueban varios funcionamientos, esto puede acarrear el problema de que se pueda contaminar
+ algunas pruebas segun el resultado o el seteo de variables en las pruebas anteriores. Además, el hecho de que no haya test unitarios lleva a que no se corrobore cuál
+ es el correcto uso y funcionamiento de las clases y de sus metodos. Por otro lado, lo que se prueba en los test existente no es muy deterministico (uso de > o < en los asserts).
+
+ - La clase Danio no posee comportamiento/responsabilidad. Se estaría dependiendo de la implementacion de la misma. Además, se viola el encapsulamiento al tener los atributos publicos. Habria
+ que brindarle alguna responsabilidad o eliminar dicha clase pasando los atributos hacia otra.
+
+ - En las clases Freezer y Goku se podrían implementar los metodos atacar() y recibirDanio() mediante polimorfismo. Si se agregara una nueva etapa/nivel habria que modificar el codigo
+ existente.
+
+ b) Los principios de diseño que se violan son:
+
+ - Open-closed en las clases Freezer y Goku. Este principio establece que las clases deben estar cerradas para modificacion y abiertas para extension. Esto se viola en los metodos atacar() y
+ recibirDanio() de ambas clases, ya que si se agregara una nueva etapa/nivel habria que modificar el codigo existente.
+
+ ------------------
+
+ 3) Patrones aplicados: double dispatch (entre Atacante y Atacable) y State para los niveles y las etapas.
+

@@ -1,0 +1,22 @@
+/**
+ * PREGUNTAS 
+ **/
+
+ ---------------------------------
+
+ 1)
+
+ a) Los problemas de diseño son:
+
+ - Falta de pruebas unitarias. Esto lleva a que no se corrobore cuál es el correcto uso y funcionamiento de las clases y de sus metodos.
+ - La clase Alumno solo posee getters y setters, no tiene responsabilidad alguna.
+ - Las clases EMail y SMS estan definidas de manera privada dentro de las clases ServicioMail y ServicioSMS respectivamente. Deberían estar definidas en otro ámbito y poseer algun comportamiento
+ o responsabilidad.
+
+ b) Se violan los siguientes principios de diseño:
+
+ - Single-responsability: Dicho principio dicta que las clases deben tener una sola razón de cambio, es decir, solo deben tener un trabajo. En este caso en particular, la clase no tiene una responsabilidad clara;
+ solo es contenedora de datos.
+ - Dependecy inversion: Dicho principio dicta que se deben depender de abstracciones y no de implementaciones. Las abstracciones no deben depender de los detalles, los detalles deben depender de las abstracciones.
+ Esto se viola claramente cuando, al enviar un SMS o EMail, se usa getters para obtener datos del Alumno.
+

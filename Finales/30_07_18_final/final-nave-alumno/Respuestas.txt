@@ -1,0 +1,29 @@
+/**
+ * PREGUNTAS
+ **/
+
+ ---------------------------------------
+
+ 1)
+
+ a) Los problemas de diseño son:
+
+ - La clase Canion tiene un unico atributo que tiene visibilidad pública violando el encapsulamiento. Además, dicha clase carece de comportamiento/responsabilidad.
+ - La clase Propulsor no posee comportamiento/responsabilidad. Se está dependiendo de la implemetanción.
+ - La clase NaveEspacial posee un atributo con visibilidad pública violando el encapsulamiento.
+ - En la clase NaveEspacial se estan utilizando booleanos para modelar el camuflaje. Se podría crear una clase para el mismo y delegar la responsabilidad.
+ - El metodo atacar() de la clase NaveEspacial utiliza ifs para determinar la accion correcta. Se podría utilizar polimorfismo.
+ - El metodo moverse() de la clase NaveEspacial utiliza getters sobre el Propulsor. Se podría delegar toda la responsabilidad del movimiento a dicha clase.
+ - En la clase NaveEspacial se mezclan tipos de nomenclaturas en las variables.
+
+ b) Los principios de diseño que se violan son:
+
+ - Single-responsability en la clase Canion y propulsores.Propulsor. Dicho principio establece que las clases deben tener una sola razon para cambiar, es decir deben tener una unica responsabilidad.
+ - Dependency inversion en la clase NaveEspacial. Dicho principio establece que las clases no deben depender de implementaciones, si no de abstracciones. Los detalles deben depender de las
+ abstracciones. En particular, este principio se viola en el metodo atacar(NaveEspacial naveEnemiga).
+
+ ---------------------------------
+
+ 3)
+ b) El principio de segregacion de interfaz trata de que un cliente (clase) no debe ser forzado a implementar/usar una interfaz que no usa. Asi mismo, un cliente tampoco
+ debería depender o tener metodos que no usa.

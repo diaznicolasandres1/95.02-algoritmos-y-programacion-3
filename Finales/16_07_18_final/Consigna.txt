@@ -1,0 +1,10 @@
+1- a) Comentar Que cosas ve mal del codigo
+   b) Que principios viola ?
+
+2- Mejorar el codigo aplicando lo necesario , agregar un Caballo el cual va a 20km/h en asfalto (todos los tipos)
+   y en calles embarradas siempre a 20km/h
+	- Hacer un diagrama de clases de tu modelo
+	- Hacer un diagrama de secuencias de una persona en un 4x4 y conduce por calles embarradas
+
+3- Que es usabilidad? , nombres 3 principios de usabilidad que uso en el tp2
+4- Preguntas Teoricas a criterio del que corrige

@@ -1,0 +1,31 @@
+/**
+ * PREGUNTAS 
+ **/
+
+ ---------------------------------
+
+1) a) Los problemas de diseño son:
+
+1- Uso de getters para saber la cantidad de ruedas de los transportes.
+2- Preguntar al transporte si tiene telepase y, en funcion de eso, realizar alguna operacion.
+3- Usar una variable booleana para determinar si un transporte tiene o no telepase.
+
+b) Se viola el principio Open-closed debido a que se usan varios condicionales para saber la cantidad de ruedas de los transportes, y en función de eso, se realiza alguna operación; es decir, si se agregaran nuevos transportes con otra cantidad de ruedas no especificada en el codigo, se deberia modificar lo ya realizado.
+
+------------------------------------------
+
+3)
+
+a) Concurrencia es tratar de lidiar con muchas cosas a la vez. Es decir, descomponer tareas en tareas mas pequeñas de manera tal que su ejecucion pueda solaparse.
+
+b) La concurrencia se diferencia del paralelismo en su definicion: paralelismo trata sobre ejecutar tareas en simultaneo. Ademas, concurrencia no implica paralelismo.
+
+c) Principalmente se presentan tres problemas cuando se habla de concurrencia: race condition, critical section y deadlocks.
+
+Race condition: se produce cuando varios threads pueden acceder a recursos compartidos. El resultado del programa depende de como se intercalen los threads.
+Critical section: porcion de codigo que necesita ser ejecutada en forma atomica por un solo thread a la vez.
+Deadlocks: se produce cuando entre dos o mas threads, uno de ellos obtiene un recurso y no lo libera generando un bloqueo.
+
+d) Los problemas detallados en c) pueden resolverse usando locks (uso de una variable de exclusion mutua), monitores (objetos thread-safe ya que sus metodos estan sincronizados) o conditional variables (mecanismo de bloqueo con una señalizacion)
+
+

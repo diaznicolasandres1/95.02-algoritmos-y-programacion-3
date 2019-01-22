@@ -1,0 +1,23 @@
+
+/**
+ * ANTES DE EMPEZAR 
+ **/
+ 
+a.Crear un proyecto nuevo desde su IDE llamándolo 02-03-17-original. Una vez creado copiar todas las clases en este zip.
+b.Crear un proyecto nuevo desde su IDE llamándolo 02-03-17-alumno. Una vez creado copiar todas las clases en este zip.
+c.Trabajar SIEMPRE sobre el proyecto 02-03-17-alumno
+
+/**
+ * PREGUNTAS 
+ **/
+
+1) Analice el problema dado teniendo en cuenta que el sistema funciona correctamente (puede ejecutar el test y vera que pasan todas las pruebas):
+	a) ¿Qué potenciales problemas de diseño encuentra? Enumérelos explicando para cada uno de ellos porqué considera que representan un problema de diseño.
+	b) Se viola algún(os) principio(s) de diseño ? ¿Cual(es)? 
+2) Realice una mejora de diseño total del proyecto. No olvide demostrar que su mejora tambien funciona.
+3) ¿Aplico algun(os) patron(es) de diseño en su solucion? ¿Cual(es)? 
+	i)En tal caso realice un diagrama de clases a mano alzada de los mismos con las entidades de su solucion 
+4) Haga a mano alzada un diagrama de secuencia dónde se pueda ver el método atacar
+5) ¿Qué quiere decir SOLID? ¿A què hace atribuciòn? Describa.
+6) Lecturas obligatorias: A determinar por el examinador. 
+
