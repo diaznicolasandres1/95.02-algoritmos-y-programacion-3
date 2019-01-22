@@ -1,0 +1,23 @@
+/**
+ * PREGUNTAS
+ **/
+
+ 1)
+
+ a) Los problemas de diseño son:
+
+ - No existen pruebas unitarias exhaustivas, generando que no se sepa cual es el correcto uso y funcionamiento de las clases y sus metodos-
+ - Las clases Alimento y Producto no posee comportamiento/responsabilidad. Además, los dos atributos que posee son publicos lo que viola el encapsulamiento. Se estaría dependiendo de la implementación de
+ la clase.
+ - El enum Material no sería necesario, es un code smell. Se podría transformar en una clase abstracta.
+ - Las clases Trabajador y SuperTrabajador poseen atributos públicos, esto genera que se viole el encapsulamiento. Por otro lado, en los metodos trabajar y comer hay un mal uso de ifs que
+ deberian ser reemplazado por el uso de polimorfismo adecuado. Si se agrega un nuevo material o un nuevo alimento, se debería modificar el codigo ya realizado.
+
+ b) Los principios de diseño que se violan son:
+
+ - Open-closed en las clases Trabajador y SuperTrabajador en los metodos comer y trabajar. Este principio establece que las clases deben estar cerradas para modificación y abiertas para
+ extensión.
+
+ ------------------------------------
+
+ 2) El unico test otorgado no pasa porque al comparar strings en Java lo hace teniendo en cuenta mayusculas y minisculas.

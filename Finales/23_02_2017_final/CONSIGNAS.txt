@@ -1,0 +1,29 @@
+
+/**
+ * ANTES DE EMPEZAR 
+ **/
+ 
+a.Crear un proyecto nuevo desde su IDE llamándolo 23-02-17-original. Una vez creado copiar todas las clases en este zip.
+b.Crear un proyecto nuevo desde su IDE llamándolo 23-02-17-alumno. Una vez creado copiar todas las clases en este zip.
+c.Trabajar SIEMPRE sobre el proyecto 23-02-17-alumno
+
+/**
+ * PREGUNTAS 
+ **/
+
+1) Analice el problema dado.
+	a) ¿Qué potenciales problemas de diseño encuentra? Enumérelos explicando para cada uno de ellos porqué considera que representan un problema de diseño.
+	
+	b) Se viola algún(os) principio(s) de diseño ? ¿Cual(es)? 
+	
+2) El único test otorgado no pasa. ¿Por qué es?
+3) Realice una mejora de diseño total del proyecto y a su vez incorpore la entidad Robot:
+	i)   En vez de peso tiene bateria
+	ii)  sabe trabajar armando productos de tamanio 3
+	iii) No entiende el mensaje comer
+	iv)  Entiende el mensaje recargar
+	
+	
+4) Haga a mano alzada un diagrama de secuencia dónde se pueda ver el método trabajar
+5) ¿Qué elementos componen un patrón de diseño? Describalos en un patrón a elección por usted.
+6) Lecturas obligatorias: A determinar por el examinador. 

@@ -1,0 +1,10 @@
+/**
+* CONSIGNAS
+/**
+
+2) Los problemas de diseño son:
+
+- No existen pruebas unitarias. Esto provoca que se desconozca cual es el correcto funcionamiento y uso de las clases y sus metodos.
+
+- El metodo realizarTrabajo de la clase Artesano deberia estar hecho mediante polimorfismo. Si se agrega una nueva especialidad o un nuevo material habria que tocar el codigo existente,
+violando el principio de Open-closed.

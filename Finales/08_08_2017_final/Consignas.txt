@@ -1,0 +1,14 @@
+/**
+* CONSIGNAS
+/**
+
+
+El siguiente grupo de clases modela un dominio del trabjo de un artesano.
+1. Analice el problema.
+2. Identifique potenciales problemas con el diseño/código presentado e indique porque considera que son problemas.
+3. Proponga y codifique una solución para cada uno de los puntos identificados.
+4. Realice un diagrama de clases
+5. Realice un diagrama de secuencia del método 'realizarTrabajo' de la clase Artesano.
+
+
+/**
