@@ -6,7 +6,7 @@ import envio.EnvioLocal;
 
 public class CuponGratisLocal extends Cupon {
 
-    private static final double DESCUENTO_LOCAL = 0;
+    private static final double DESCUENTO_LOCAL = 1.1;
     private static final double DESCUENTO_INTERNACIONAL = 1;
 
     @Override
@@ -16,7 +16,7 @@ public class CuponGratisLocal extends Cupon {
 
     @Override
     public double realizarDescuento(double precioDelPedido, EnvioLocal envio) {
-        return precioDelPedido * DESCUENTO_LOCAL;
+        return precioDelPedido / DESCUENTO_LOCAL;
     }
 
     @Override

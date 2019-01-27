@@ -81,7 +81,7 @@ public class PedidoTest {
         pedido.agregarEnvio(new EnvioLocal());
         pedido.agregarCupon(new CuponGratisLocal());
 
-        Assert.assertEquals(0, pedido.cobrarA(new TiendaOnline()), DELTA);
+        Assert.assertEquals(10, pedido.cobrarA(new TiendaOnline()), DELTA);
     }
 
     @Test

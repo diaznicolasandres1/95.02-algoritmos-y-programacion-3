@@ -146,7 +146,7 @@ public class TiendaOnlineTest {
     }
 
     @Test
-    public void test07TiendaCobraPedidoConEnvioLocalYConCuponDeEnvioLocalGratisDa0() {
+    public void test07TiendaCobraPedidoConEnvioLocalYConCuponDeEnvioLocalGratisDevuelve10000() {
 
         TiendaOnline tienda = new TiendaOnline();
         Pedido pedido = new Pedido();
@@ -167,7 +167,7 @@ public class TiendaOnlineTest {
         tienda.agregarEnvio(pedido, new EnvioLocal());
         tienda.agregarCuponDeDescuento(pedido, new CuponGratisLocal());
 
-        assertEquals(0, tienda.cobrarPedido(pedido), DELTA);
+        assertEquals(10000, tienda.cobrarPedido(pedido), DELTA);
     }
 
     @Test

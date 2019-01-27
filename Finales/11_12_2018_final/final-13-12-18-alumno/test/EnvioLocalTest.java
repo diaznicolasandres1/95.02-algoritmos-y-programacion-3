@@ -42,7 +42,7 @@ public class EnvioLocalTest {
     public void test05EnvioLocalRealizaDescuentoAPrecio10ConCuponGratisLocal() {
         EnvioLocal envio = new EnvioLocal();
 
-        Assert.assertEquals(0, envio.resolverDescuento(10, new CuponGratisLocal()), DELTA);
+        Assert.assertEquals(9.09090909090909, envio.resolverDescuento(10, new CuponGratisLocal()), DELTA);
     }
 
 }
