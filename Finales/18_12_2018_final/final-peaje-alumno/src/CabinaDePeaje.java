@@ -2,12 +2,12 @@ import transporte.Transporte;
 
 public class CabinaDePeaje {
 
-	private int PRECIO_POR_RUEDA = 2;
+    private int PRECIO_POR_RUEDA = 2;
 
-	public int cobrarPeaje(Transporte transporte) {
+    public int cobrarPeaje(Transporte transporte) {
 
-		return transporte.calcularPeaje(PRECIO_POR_RUEDA);
-		
+        return transporte.calcularPeaje(PRECIO_POR_RUEDA);
+
 //		// Verifico que onda el telepase
 //		// OJO, las motos NO tienen telepase
 //		if (transporte.getRuedas() == 2){
@@ -29,5 +29,5 @@ public class CabinaDePeaje {
 //				return transporte.getRuedas() * PRECIO_POR_RUEDA;
 //			}
 //		}
-	}
+    }
 }

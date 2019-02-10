@@ -5,18 +5,18 @@ import telepase.EstadoTelepaseInstalado;
 import telepase.EstadoTelepaseNoInstalado;
 
 public abstract class Transporte {
-	
-	protected int ruedas;
-	protected EstadoTelepase telepase;
 
-	public Transporte(int ruedas) {
-		this.ruedas = ruedas;
-		this.telepase = new EstadoTelepaseNoInstalado();
-	}
+    protected int ruedas;
+    protected EstadoTelepase telepase;
 
-	public void instalarTelepase() {
-		this.telepase = new EstadoTelepaseInstalado();
-	}
+    public Transporte(int ruedas) {
+        this.ruedas = ruedas;
+        this.telepase = new EstadoTelepaseNoInstalado();
+    }
 
-	public abstract int calcularPeaje(int precioPorRueda);
+    public void instalarTelepase() {
+        this.telepase = new EstadoTelepaseInstalado();
+    }
+
+    public abstract int calcularPeaje(int precioPorRueda);
 }
