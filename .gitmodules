@@ -1,3 +1,6 @@
 [submodule "final-ayp3"]
 	path = final-ayp3
 	url = https://github.com/diaznicolasandres1/final-ayp3.git
+[submodule "Algoritmos3-Trabajo-final"]
+	path = Algoritmos3-Trabajo-final
+	url = https://github.com/diaznicolasandres1/Algoritmos3-Trabajo-final.git
