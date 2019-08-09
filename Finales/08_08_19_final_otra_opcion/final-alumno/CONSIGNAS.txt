@@ -1,0 +1,56 @@
+/********************************************************************************************************************************************
+ * ANTES DE EMPEZAR 
+*********************************************************************************************************************************************/
+ 
+a.Crear un proyecto nuevo desde su IDE llamandolo final-original. Una vez creado copiar todas las carpetas con clases de este zip.
+b.Crear un proyecto nuevo desde su IDE llamandolo final-alumno. Una vez creado copiar todas las carpetas con clases de este zip.
+c.Trabajar SIEMPRE sobre el proyecto final-alumno
+
+
+/********************************************************************************************************************************************
+* IMPORTANTE
+*********************************************************************************************************************************************/
+
+Para aprobar este examen el/la alumno/a debe entregar una solución integral y completa que resuelva el problema dado, demostrando un alto dominio de POO, así como también de UML.
+En este sentido cualquiera de las siguientes situaciones conlleva a la desaprobación AUTOMATICA del examen integrador:
+
+	1. NO entregar código desarrollado por el propio/a alumno/a.
+	2. NO entregar diagramas UML.
+	3. Presentar errores GROSEROS de notación UML.
+
+
+/********************************************************************************************************************************************
+ * PREGUNTAS 
+*********************************************************************************************************************************************/
+
+1) Analice el modelo otorgado y conteste:
+
+	a) ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
+	b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)? 
+
+
+2) 	Desarrolle diseñando, programando y sin cambiar la firma del método puedoCircular() una mejora TOTAL de diseño del proyecto que además incluya:
+
+ 		Habrá 2 tipos de infracciones:
+ 		  * Por mal estacionamiento.
+ 		  * Por cruzar un semáforo en rojo.
+
+ 		Tanto los autos como las motos pueden cometer cualquiera de las dos infracciones.   
+ 		
+ 		Un conductor puede tener 0, 1 o muchas infracciones cometidas.
+ 		
+ 		Para poder circular además de cumplir con los requisitos de cada vehículo (tener el casco puesto o el cinturon abrochado) el conductor debe tener TODAS sus infracciones "resueltas".
+ 		
+ 		Cuando un conductor comete una infraccion la misma se encuentra "pendiente". Para que una infraccion pase de "pendiente" a "resuelta" debe suceder:
+ 		
+ 		 * Por mal estacionamiento: Se debe pagar en $ (pesos argentinos) la suma de $2500 (tanto las motos como los autos) 
+ 		 * Por cruzar un semáforo en rojo: Autos deben cumplir 20 horas de trabajo social y las motos 15 horas. 
+ 		
+		
+		A ENTREGAR:
+		
+		 + Código con dicha mejora de diseño.
+		 + Diagrama de clases A MANO ALZADA de como sera su nuevo diseño.
+		 + Diagrama de secuencias A MANO ALZADA donde se verifica puedoCircular() de un conductor de motos con casco puesto y una multa "resuelta" por haber pasado un semáforo en rojo.
+		
+3) Preguntas teóricas: A determinar por el/la docente.
